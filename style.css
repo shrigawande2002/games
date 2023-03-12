@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    background: #00000073;
+  
+}
+
+.nav-list{
+    width: 70%;
+   
+    display: flex;
+    align-items: center;
+}
+.rightnav{
+    width: 30%;
+    display: flex;
+
+    justify-content: center;
+}
+.nav-list li{
+    list-style: none;
+padding: 33px;
+
+}
+.nav-list li a{
+    color: rgb(228, 27, 94);
+    text-decoration: none;
+    
+    
+}
+
+.logo{
+ width: 20%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.logo img{
+    width: 60%;
+    border: solid white 3px;
+    border-radius: 100%;
+
+}
+
+.rightnav button{
+   
+margin: 25px 35px;
+padding: 7px;
+}
+
+.rightnav input{
+    margin: 26px -17px;
+    padding: 0px 80px;
+}
+
+.background{
+    
+    background: rgb(0, 0,0,0.7) url(img/america-g38ccbf007_1920.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    padding: 90px;
+}
+.firstsection{
+    height: 130vh;
+}
+
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0px;
+}
+
+.secondhalf{
+    width: 30%;
+    display: block;
+    justify-content: center;
+    
+
+    
+}
+.secondhalf img{
+    width: 100%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    border: 4px solid;
+    border-radius: 32%;
+}
+.name{
+    color: white;
+align-items: center;
+}
+.text-big{
+font-size: 30px;
+font-family: 'Lato', sans-serif;
+
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Ubuntu', sans-serif;
+}
+.text-small{
+    font-size: 20px;
+    margin: 24px 0px;
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn{
+    margin: 7px 0;
+padding: 8px 20px;
+border: 2px solid white;
+border-radius: 10px;
+background: none;
+color: white;
+
+}
+.secondclass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    padding: 90px;
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.section{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 90%;
+    margin: auto;
+}
+.thumbnai img {
+  
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 2px;
+    width: 250px;
+    margin-top: 19px;
+    
+    
+
+}
+.left{
+   flex-direction: row-reverse;
+   display: flex;
+   height: 500px;
+   
+}
+
+.paras{
+  padding: 0px 65px;
+
+}
+footer{
+   background-color: rgb(85, 69, 69);
+   height: 7vh;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+    display: none;
+}
+.line{
+    width: 33px;
+    height: 4px;
+    background-color: red;
+    margin: 3px 3px;
+}
+
+@media only screen and (max-width: 1160px)  { 
+
+    .nav-list{
+
+        flex-direction: column;
+        width: 100%;
+    }
+    
+.navbar{
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+    height: 500px;
+}
+
+.rightnav{
+    text-align: center;
+    width: 109%;
+
+}
+.burger{
+    display: block;
+}
+.h-nav{
+    height: 60px;
+}
+
+.v-class{
+
+    opacity: 0;
+
+}
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+}
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .btn{
+        text-align: center;
+    }
+    .paras{
+        text-align: center;
+        padding: 0;
+    }
+    .thumbnai img{
+        text-align: center;
+    }
+}

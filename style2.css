@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@100&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact{
+    padding: 60px;
+   height: 100vh;
+    background-color: #b2aea9;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+.form  {
+    max-width: 500px;
+    margin: auto;
+    margin: 42px auto;
+}
+.form input{
+    width: 100%;
+    font-size: 19px;
+    padding: 5px 3px;
+    border: 2px solid black;
+    border-radius:6px ;
+    margin: 14px 0px;
+    font-family: 'Lato', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+button{
+    padding: 10px 46px;
+border: 2px solid;
+border-radius: 15px;
+}
+
+.msg{
+    margin: 25px 0;
+    
+    font-family: 'Ubuntu', sans-serif;
+}
